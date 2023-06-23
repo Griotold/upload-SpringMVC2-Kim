@@ -54,6 +54,7 @@ public class FileStore {
     }
 
     private static String createStoreFileName(String originalFilename) {
+        // 확장자 추출
         String ext = extractExt(originalFilename);
 
         // 서버에 저장하는 파일 명
